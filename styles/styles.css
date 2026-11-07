@@ -10,8 +10,11 @@ nav a {
 }
 
 main {
-    color: darkblue;
     max-width: 840px;
+}
+
+h1 {
+    color: darkblue;
 }
 
 aside {
