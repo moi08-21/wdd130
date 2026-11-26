@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hashtag#f4f6f9;
+    color: #222222;
+    padding: 1.5rem;
+}
+
+main {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: hashtag#0b2545;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+form {
+    background-color: hashtag#e9ecef;
+    border: 1px solid hashtag#ced4da;
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.quiz-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+code {
+    background-color: #333333;
+    color: hashtag#ffffff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-family: monospace;
+    align-self: flex-start;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.65rem;
+    border: 1px solid hashtag#adb5bd;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: hashtag#ffffff;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid hashtag#0b2545;
+    border-color: hashtag#0b2545;
+}
+
+button {
+    background-color: hashtag#0b2545;
+    color: hashtag#ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.85rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: hashtag#13315c;
+}
