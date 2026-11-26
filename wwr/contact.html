@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <​meta charset="UTF-8">
+        <​meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contact Us | Whitewater Rafting Adventures</title>
+            <​meta name="description" content="Get in touch with Whitewater Rafting Adventures for trip reservations, general inquiries, river conditions, and website feedback.">
+                <​meta name="author" content="Your Name">
+                    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <!-- Keep your exact header and nav from about.html -->
+        <img src="images/logo.png" alt="Whitewater Rafting Adventures Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-header">
+            <h1>Contact Us</h1>
+            <div class="company-info">
+                <p><strong>Address:</strong> 123 River Rapids Way, Moab, UT 84532</p>
+                <p><strong>Phone:</strong> (801) 555-0199</p>
+                <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+            </div>
+        </section>
+
+        <section class="contact-grid">
+            <div class="map-container">
+                <!-- Replace src with your own Google Maps embed link, and make sure style="border:0;" is REMOVED -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49611.53226525802!2d-109.58988565!3d38.5733155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8747e1e59ab82d8d%3A0xb32b17af1d5c42d!2sMoab%2C%20UT%2084532!5e0!3m2!1sen!2sus!4v1700000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Whitewater Rafting Headquarters Location Map">
+                </iframe>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+
+                <fieldset class="radio-group">
+                    <legend>Message Purpose</legend>
+                    <div class="radio-option">
+                        <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                        <label for="purpose-general">General Inquiry</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                        <label for="purpose-reservation">Reservation Question</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                        <label for="purpose-suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Send My Message</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Sarah Jenkins, Lead River Guide">
+                    <figcaption>Sarah Jenkins — Lead River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Marcus Vance, Reservations Manager">
+                    <figcaption>Marcus Vance — Reservations Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Elena Morales, Safety & Operations Director">
+                    <figcaption>Elena Morales — Safety & Operations Director</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Keep your exact footer from about.html -->
+        <p>&copy; 2026 Whitewater Rafting Adventures | Your Name</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
